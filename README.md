@@ -1,4 +1,19 @@
 # Variablesyoperadores
+**¿Para qué se utilizan los operadores lógicos en programación?**
+Los operadores logicos sirven para comparar, evaluar, combinar o negar condiciones, principalmente en estructuras como If-Else, Switch, While y for
+
+**¿Por qué es importante declarar correctamente el tipo de dato de una variable?**
+Para que cuando se ingrese el valor a la variable lo lea correctamente y se ingrese el tipo de dato que se necesita, en caso de que se necesiten numeros enteros y el usuario intente ingresar texto la variable no permite el ingreso de datos que no sean los solicitados.
+
+**Explicar qué estructura de control utilizó en:**
+
+**Clasificación de edad:** Se utilizo if-Else porque habia que hacer comparaciones numericas y era mas facil utilizando && y ><= para hacer las comparaciones segun el numero ingresado. Utlizando Switch seria un codigo largo e innecesario.
+
+**Día de la semana:** Se utilizo Switch porque solo habia que agregar la respuesta a 7 posibles ingresos del usuario por lo tanto era un codigo mas corto.
+
+**Verificación de acceso:** Se utilizo if-else para hacer las comparaciones de las cadenas de texto, por medio de equals que es para comparar cadenas, para validar o rechazar el usuario o contraseña ingresado que ya habia sido almacenado en el programa.
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________
 **Programa 1**
 package programadeclaracióndevariables;
 
@@ -249,3 +264,5 @@ public class verificaciondeacceso {  // Corrección: convención de nombres
         sc.close();
     }
 }
+**Se utilizo if-else para hacer las comparaciones para validar o rechazar el usuario o contraseña ingresado que ya habia sido almacenado en el programa**
+__________________________________________________________________________________________________________________________________________________________
